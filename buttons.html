@@ -8,7 +8,17 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
   }
+
+  .subscribe-button:hover {
+    opacity: 0.7;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.35;
+  }
+
   .join-button {
     background-color: white;
     border-color: rgb(0, 110, 255);
@@ -20,7 +30,19 @@
     border-radius: 2px;
     margin-right: 8px;
     cursor: pointer;
+    transition: background-color 0.15s,
+      color 0.15s;
   }
+
+  .join-button:hover {
+    background-color: rgb(0, 110, 255);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
   .tweet-button {
     background-color: rgba(0, 140, 255, 0.815);
     color: white;
@@ -31,7 +53,17 @@
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
   }
+
+  .tweet-button:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .tweet-button:active {
+    opacity: 0.7;
+  }
+
 </style>
 <!-- style element allows for css code -->
 
@@ -40,6 +72,12 @@
 <!-- height and width is self-explanatory -->
 <!-- border-radius : rounds the corners -->
 <!-- cursor : changes our mouse whenever we hover over -->
+
+<!-- :hover is a pseudo-class which adds extra styles whenever we are hovering -->
+<!-- :active is a pseudo-class which adds extra styles whenever clicked -->
+
+<!-- transition: (property) (how long you want the transition to be) -->
+<!-- box-shadow: (hor) (vert) (blur) (color) -->
 
 <button class="subscribe-button">
   SUBSCRIBE
