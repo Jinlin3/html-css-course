@@ -1,4 +1,10 @@
 <style>
+  .amazon-link {
+    color: rgb(0, 124, 161);
+  }
+  .amazon-link:hover {
+    color: rgb(184, 67, 0);
+  }
   .title-text {
     font-size: x-large;
     font-weight: bold;
@@ -20,6 +26,13 @@
     border-radius: 20px;
     margin-right: 8px;
     cursor: pointer;
+    transition: background-color 0.1s;
+  }
+  .cart-button:hover {
+    background-color: rgb(238, 202, 20);
+  }
+  .cart-button:active {
+    opacity: 0.6;
   }
   .buy-button {
     background-color: rgb(255, 164, 28);
@@ -29,6 +42,13 @@
     font-weight: bold;
     border-radius: 20px;
     cursor: pointer;
+    transition: background-color 0.1s;
+  }
+  .buy-button:hover {
+    background-color: rgb(231, 149, 25);
+  }
+  .buy-button:active {
+    opacity: 0.6;
   }
 
 </style>
@@ -43,7 +63,7 @@
 <p>Below is the Challenge Exercise</p>
 
 <!-- Lesson 2 Exercise -->
-<a href="https://www.amazon.com/" target="_blank">Back to Amazon</a>
+<a class="amazon-link" href="https://www.amazon.com/" target="_blank">Back to Amazon</a>
 <p class="title-text">Nike Black Running Shoes</p>
 <p class="price-text">$39 - in stock.</p>
 <p class="delivery-text">Free delivery tomorrow.</p>
