@@ -1,0 +1,38 @@
+.name-box,
+      .email-box {
+        margin-bottom: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+      }
+      .paragraph {
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .yes,
+      .no {
+        vertical-align: middle;
+      }
+      .google {
+        width: 300px;
+        height: 100px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 14px;
+        margin-left: 275px;
+        object-fit: cover;
+      }
+      .google-search {
+        width: 580px;
+        margin-left: 125px;
+        font-family: Arial;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 20px;
+        border-style: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
