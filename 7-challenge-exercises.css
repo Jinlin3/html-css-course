@@ -1,0 +1,72 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.email {
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.f-searchbar {
+  width: 350px;
+  font-size: 23px;
+  border-color: rgb(80, 80, 80);
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  margin-bottom: 18px;
+}
+.description {
+  padding-right: 0px;
+  margin-top: 0px;
+  font-size: 15px;
+  color: rgb(80, 80, 80);
+}
+.agree-button {
+  font-size: 20px;
+  background-color: rgb(40, 116, 214);
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 120px;
+  padding-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+.quandale {
+  margin-left: 100px;
+  vertical-align: middle;
+  width: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.g-searchbar {
+  vertical-align: middle;
+  font-size: 16px;
+  border-style: none;
+  margin-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 300px;
+}
+.tweet-button {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 8px;
+  color: white;
+  background-color:rgb(40, 144, 214);
+  border-style: none;
+  border-radius: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
