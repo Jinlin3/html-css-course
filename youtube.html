@@ -5,14 +5,32 @@
     <style>
       .thumbnail {
         width: 300px;
+        display: block;
+      }
+      .video-title {
+        width: 300px;
       }
     </style>
   </head>
   <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
     <input class="search-bar" type="text" placeholder="Search">
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+
+    <p class="video-title">
+      Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!
+    </p>
+    <p class="video-author">
+      Marques Brownlee
+    </p>
+    <p class="video-stats">
+      3.4M views &#183; 6 months ago
+    </p>
   </body>
 </html>
 
 <!-- object-fit says what to do if the image does not fit dimensions (cover, contain) -->
 <!-- object-position says which part of the image to look at if object-fit is used -->
+
+<!-- block elements take up an entire line -->
+<!-- inline-block elements only takes up as much space as needed -->
+<!-- inline elements appear within a line of text -->
