@@ -14,19 +14,23 @@
       .no {
         vertical-align: middle;
       }
+      .first-div {
+        margin-top: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
       .google {
         width: 300px;
         height: 100px;
-        display: block;
-        margin-top: 20px;
-        margin-bottom: 14px;
-        margin-left: 275px;
         object-fit: cover;
+      }
+      
+      .second-div {
+        text-align: center;
       }
       .google-search {
         width: 580px;
-        margin-left: 125px;
-        font-family: Arial;
+        font-family: Roboto;
         font-size: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -35,4 +39,39 @@
         border-radius: 20px;
         border-style: none;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .third-div {
+        margin-top: 35px;
+        text-align: center;
+      }
+      .google-button,
+      .lucky {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: Roboto;
+        font-size: 20px;
+        border-style: none;
+        cursor: pointer;
+
+        transition:
+          border-style 0.5s,
+          border-width 0.5s,
+          opacity 0.5s
+      }
+      .google-button:hover,
+      .lucky:hover {
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-right: 4px;
+        margin-left: 4px;
+        border-style: solid;
+        border-width: 1px;
+        opacity: 0.7;
       }
