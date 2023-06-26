@@ -3,6 +3,9 @@
   <head>
     <title>YouTube.com Clone</title>
     <style>
+      .search-bar {
+        display: block;
+      }
       .thumbnail {
         width: 300px;
         display: block;
@@ -10,29 +13,57 @@
       .video-title {
         width: 300px;
       }
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
     </style>
   </head>
   <body>
-    <input class="search-bar" type="text" placeholder="Search">
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
 
-    <p class="video-title">
-      Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">
-      Marques Brownlee
-    </p>
-    <p class="video-stats">
-      3.4M views &#183; 6 months ago
-    </p>
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+
+      <p class="video-title">
+        Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!
+      </p>
+      <p class="video-author">
+        Marques Brownlee
+      </p>
+      <p class="video-stats">
+        3.4M views &#183; 6 months ago
+      </p>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+
+      <p class="video-title">        
+        Try Not To Laugh Challenge #9
+      </p>
+      <p class="video-author">
+        Markiplier
+      </p>
+      <p class="video-stats">
+        19M views &#183; 4 years ago
+      </p>
+    </div>
+
   </body>
 </html>
 
 <!-- object-fit says what to do if the image does not fit dimensions (cover, contain) -->
 <!-- object-position says which part of the image to look at if object-fit is used -->
 
-<!-- block elements take up an entire line -->
+<!-- block elements take up an entire line in their container -->
 <!-- inline-block elements only takes up as much space as needed -->
 <!-- inline elements appear within a line of text -->
 
 <!-- css display property allows us to change from block to inline-block and vice-versa -->
+
+<!-- <div> is just a box/container; can contain any element inside -->
+<!-- divs are by default a block element -->
