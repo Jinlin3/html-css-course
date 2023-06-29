@@ -15,34 +15,37 @@
       }
 
       .profile-box {
-        width: 225px;
-        display: inline-block;
+        width: 100%;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
         margin-right: 15px;
       }
       .info-div {
         margin-top: 6px;
       }
-      .friends-div {
-        margin-top: 6px;
-        margin-bottom: 10px;
+      .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
       }
-
+      .friends-grid {
+        margin-top: 8px;
+        margin-bottom: 10px;
+        margin-left: 8px;
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        align-items: center;
+        column-gap: 8px;
+      }
+     
       .pfp {
         width: 100%;
       }
       .pfp-icon {
-        width: 30px;
-        display: inline-block;
+        width: 100%;
         border-radius: 50px;
-        margin-left: 8px;
-        margin-right: 4px;
-        vertical-align: top;
         cursor: pointer;
       }
       .friends-text {
-        display: inline-block;
-        margin-top: 5px;
         color: rgb(96, 96, 96);
       }
       .name-text {
@@ -75,62 +78,54 @@
     </style>
   </head>
   <body>
-    <div class="profile-box">
+    <div class="main-grid">
 
-      <div class="picture-div">
-        <img class="pfp" src="ezreal.webp">
-      </div>
-      <div class="info-div">
-        <div class="name-div">
-          <p class="name-text">Ezreal</p>
-        </div>
-        <div class="friends-div">
-          <img class="pfp-icon" src="quandale-dingle.jpg">
-          <p class="friends-text">2 mutual friends</p>
-        </div>
-        <div class="button-div">
-          <button class="add-friend-button">Add Friend</button>
-        </div>
-      </div>
+      <div class="profile-box">
 
-    </div>
-
-    <div class="profile-box">
-
-      <div class="picture-div">
-        <img class="pfp" src="draven.jpg">
-      </div>
-      <div class="info-div">
-        <div class="name-div">
-          <p class="name-text">Draven</p>
+        <div class="picture-div">
+          <img class="pfp" src="ezreal.webp">
         </div>
-        <div class="friends-div">
-          <img class="pfp-icon" src="quandale-dingle.jpg">
-          <p class="friends-text">3 mutual friends</p>
+        <div class="info-div">          
+          <p class="name-text">Ezreal</p>          
+          <div class="friends-grid">
+            <img class="pfp-icon" src="quandale-dingle.jpg">
+            <p class="friends-text">2 mutual friends</p>
+          </div>          
+          <button class="add-friend-button">Add Friend</button>          
         </div>
-        <div class="button-div">
-          <button class="add-friend-button">Add Friend</button>
-        </div>
+  
       </div>
 
-    </div>
+      <div class="profile-box">
 
-    <div class="profile-box">
-
-      <div class="picture-div">
-        <img class="pfp" src="miss-fortune.webp">
+        <div class="picture-div">
+          <img class="pfp" src="draven.jpg">
+        </div>
+        <div class="info-div">          
+          <p class="name-text">Draven</p>          
+          <div class="friends-grid">
+            <img class="pfp-icon" src="quandale-dingle.jpg">
+            <p class="friends-text">5 mutual friends</p>
+          </div>          
+          <button class="add-friend-button">Add Friend</button>          
+        </div>
+  
       </div>
-      <div class="info-div">
-        <div class="name-div">
-          <p class="name-text">Miss Fortune</p>
+
+      <div class="profile-box">
+
+        <div class="picture-div">
+          <img class="pfp" src="miss-fortune.webp">
         </div>
-        <div class="friends-div">
-          <img class="pfp-icon" src="quandale-dingle.jpg">
-          <p class="friends-text">10 mutual friends</p>
+        <div class="info-div">          
+          <p class="name-text">Miss Fortune</p>          
+          <div class="friends-grid">
+            <img class="pfp-icon" src="quandale-dingle.jpg">
+            <p class="friends-text">10 mutual friends</p>
+          </div>          
+          <button class="add-friend-button">Add Friend</button>          
         </div>
-        <div class="button-div">
-          <button class="add-friend-button">Add Friend</button>
-        </div>
+  
       </div>
 
     </div>
