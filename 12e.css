@@ -1,0 +1,44 @@
+p {
+  margin: 0;
+  font-family: Roboto, Arial;
+}
+div {
+  font-family: Roboto, Arial;
+}
+
+.center-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.first-exercise {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.4);
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-side {
+  margin-left: 15px;
+}
+.right-side {
+  font-weight: 500;
+  margin-right: 15px;
+  background-color: rgb(78, 125, 253);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
