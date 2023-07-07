@@ -1,0 +1,47 @@
+p {
+  margin: 0;
+}
+.right-sidebar {
+  color: white;
+  background-color: green;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0px;
+  width: 100px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.line-1 {
+  font-family: Roboto, Arial;
+  font-weight: 700;
+  font-size: 35px;
+}
+.line-2 {
+  font-family: Roboto, Arial;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.button {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+}

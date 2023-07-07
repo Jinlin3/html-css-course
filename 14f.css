@@ -1,0 +1,78 @@
+p {
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 310px;
+  display: flex;
+}
+.left-side {
+  width: 70px;
+  background-color: rgb(33, 33, 39);
+  display: grid;
+  grid-template-rows: 10px 50px 50px 50px;
+  justify-content: center;
+  row-gap: 10px;
+}
+.right-side {
+  flex: 1;
+  background-color: rgb(43, 43, 51);
+  display: flex;
+  flex-direction: column;
+}
+.info-bar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-text {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.plus-sign {
+  color: gray;
+  font-weight: 400;
+  font-size: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.channel-section {
+  flex: 1;
+}
+.channel-div {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition:
+    background-color 0.1s;
+}
+.channel-div:hover {
+  background-color: rgb(56, 56, 68);
+}
+.channel-div:hover .channel-name {
+  color: white;
+}
+.channel-name {
+  color: gray;
+  margin-left: 15px;
+  transition:
+    color 0.1s;
+}
+.pic {
+  width: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition:
+    border-radius 0.25s;
+}
+.pic:hover {
+  border-radius: 15px;
+}
